@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 650px;
+  gap: 1.6rem;
+}
+
+.card {
+  padding: 2rem;
+  border: 1px solid black;
+}
